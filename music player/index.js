@@ -1,3 +1,5 @@
+const { array } = require("prop-types");
+
 const playlistSongs = document.getElementById("playlist-songs");
 const playButton = document.getElementById("play");
 const pauseButton = document.getElementById("pause");
@@ -86,16 +88,8 @@ let userData = {
     songCurrentTime: 0,
 };
 
-const printGreeting =() => {
-    console.log("Hello there!");
-};
-printGreeting();
+const renderSongs = (array) => {
 
-const printMessage = org => {
-    console.log(`${org} is awesome!`)
 };
-printMessage("freeCodeCamp");
 
-const addTwoNumbers = (num1, num2) => {
-    return num1 + num2;
-};
+const songsHTML = array.map();
