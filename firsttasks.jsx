@@ -1,1 +1,1 @@
-JSX = <div>Test</div>
+const JSX = <div><h1>Header</h1><p>Some text</p><ul><li>One</li><li>Two</li><li>Three</li></ul></div>
